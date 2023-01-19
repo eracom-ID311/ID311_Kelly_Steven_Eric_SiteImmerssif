@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: royalblue;
+    }
+    50% {
+        background-color: #ff0000;
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 200px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    margin: 150px 0;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+.steve {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    align-content: space-around;
+}
+
+.vertical {
+    width: 100%;
+}
+
+.bigBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 150px 0;
+    padding: 0 150px;
+}
+
+.smallBox p {
+    width: 70%;
+}
+
+
+/* ---------------button---------------- */
+
+.button {
+    z-index: 2;
+    position: fixed;
+    top: 450px;
+    left: 1075px;
+    color: black;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: royalblue;
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    animation-name: colorchange;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.button :hover {
+    cursor: pointer;
+}
+
+.button-button1 {
+    display: none;
+    top: 200px;
+    left: 200px;
+}
+
+.button-button2 {
+    display: none;
+    top: 180px;
+    left: 1033px;
+}
+
+.button-button3 {
+    display: none;
+    top: 540px;
+    left: 900px;
+}
+
+.button-button4 {
+    display: none;
+    top: 740px;
+    left: 600px;
+}
+
+.button-button5 {
+    display: none;
+    top: 350px;
+    left: 150px;
+}
+
+.button-button6 {
+    display: none;
+    top: 10px;
+    left: 800px;
+}
+
+.button-button7 {
+    display: none;
+    top: 800px;
+    left: 300px;
+}
+
+.button-button8 {
+    display: none;
+    top: 300px;
+    left: 1000px;
+}
+
+.button-button9 {
+    display: none;
+    top: 650px;
+    left: 1200px;
+}
+
+.button-button10 {
+    display: none;
+    top: 500px;
+    left: 500px;
+}
+
+.button-button11 {
+    display: none;
+    top: 200px;
+    left: 500px;
+}
